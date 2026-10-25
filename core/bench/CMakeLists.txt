@@ -1,3 +1,0 @@
-find_package(benchmark REQUIRED)
-add_executable(frenet_planner_bench bench_planners.cpp)
-target_link_libraries(frenet_planner_bench PRIVATE frenet_planner benchmark::benchmark_main)
